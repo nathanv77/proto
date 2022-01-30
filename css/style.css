@@ -1,0 +1,202 @@
+body {
+	background: #222a49;
+	color: #222a49;
+	font-family: 'font1';
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+	font-family: 'font1';
+	src: url('../fonts/nasalization-rg.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+a {
+	outline: none;
+}
+img {
+	border: none;
+}
+p {
+	line-height: 30px;
+	margin: 0;
+	border: 3px;
+}
+pre{
+	color: #222a49;
+	font-family: 'font1';
+}
+#header {
+	margin: 0 auto;
+	max-width: 960px;
+}
+#header h1 {
+	font-size: 50px;
+	font-weight: normal;
+	line-height: 50px;
+	margin: 0;
+	padding: 30px 0;
+	text-align: center;
+}
+#header h1 a {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	display: inline-block;
+}
+#header h1 a span {
+	display: block;
+	color: #222a49;
+	font-family: 'font1';
+	font-size: 26px;
+	text-transform: uppercase;
+	background-color: rgb(255, 230, 0);
+	width: 110%;
+	height: 110%;
+}
+#header ul#navigation {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+#header ul#navigation li {
+	display: inline;
+	line-height: 30px;
+	position: relative;
+}
+#header ul#navigation li a {
+	color: #b6d8cf;
+	font-size: 18px;
+	padding: 0 60px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#header ul#navigation li a:hover,
+#header ul#navigation li.current ul li a:hover {
+	color: rgb(255, 230, 0);
+}
+#header ul#navigation li.current a {
+	color: rgb(255, 230, 0);
+}
+#header ul#navigation li ul {
+	display: none;
+	left: 0;
+	list-style: none outside none;
+	margin: 0;
+	padding: 11px 0 0;
+	position: absolute;
+	top: 12px;
+}
+#header ul#navigation li:hover ul {
+	display: block;
+}
+#header ul#navigation li ul li {
+	background: #077054;
+	display: block;
+	height: 46px;
+	line-height: 46px;
+}
+#header ul#navigation li ul li a {
+	padding: 0 20px;
+}
+#header ul#navigation li.current ul li a {
+	color: #b6d8cf;
+}
+#body {
+	background: #ffffff;
+	margin: 1px auto 0;
+	max-width: 880px;
+	min-height: 827px;
+	overflow: hidden;
+	padding: 45px 40px 46px;
+}
+#body > h2 {
+	color: #222a49;
+	font-family: 'font1';
+	font-size: 25px;
+	font-weight: normal;
+	line-height: 30px;
+	margin: 0;
+	padding: 0 0 44px;
+}
+#body_galerie {
+	background: #ffffff;
+	margin: 1px auto 0;
+	max-width: 880px;
+	min-height: 827px;
+	overflow: hidden;
+	padding: 45px 40px 46px;
+}
+#footer {
+	margin: 0 auto;
+	max-width: 960px;
+	overflow: hidden;
+	padding: 30px 0 60px;
+}
+#footer div {
+	float: left;
+	width: 500px;
+}
+#footer div span {
+	color: #568692;
+	display: block;
+	font-size: 200%;
+	line-height: 24px;
+	width: 200%;
+}
+#footer div p {
+	color: #b6d8cf;
+	font-size: 12px;
+	line-height: 30px;
+}
+a.bouton_contact {
+    color: white;
+    border: 3px solid white;
+    padding: 15px 20px;
+    text-decoration: none;
+    background-color: #222a49;
+    display: inline-block;
+    margin-top: 0px;
+    border-radius: 10px;
+	font-size: 20px;
+}
+a.bouton_contact:hover{
+    color: rgb(255, 230, 0);
+    border: 3px solid rgb(255, 230, 0);
+    
+}
+.gras{
+	font-weight: bold;
+}
+.italique{
+	font-style: italic;
+}
+.images_ligne{
+	width: 100%;
+	margin-bottom: 1%;
+}
+.images_ligne_margin_bottom{
+	margin-bottom: 1%;
+	width: 100%;
+}
+.images{
+	margin-top: 1%;
+	width: 100%;
+}
+.map{
+	width: 100%;
+}
+div.ligne{
+    background-color: #222a49;
+    height: 5px;
+}
+.bold{
+	font-weight: bold;
+	font-size: 20px;
+}
+.logo{
+	width: 100%;
+	margin-bottom: 15px;
+}
